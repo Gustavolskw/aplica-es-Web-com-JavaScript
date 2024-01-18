@@ -1,4 +1,16 @@
     const containerVideos = document.querySelector(".videos__container")
+
+
+let timerInSeconds = 5;
+
+
+
+
+
+
+
+
+
     async function buscarEMostrarVideos() {
         try {
             const busca = await fetch("http://localhost:3000/video");
@@ -18,23 +30,31 @@
                 </div>                                                  
                 </li>`
             })
-        }catch(e) {
-            containerVideos.innerHTML = `
+        } catch (e) {
+             setInterval(() => {
+
+timerInSeconds -= 1;
+
+   containerVideos.innerHTML = `
             <div class="col-lg-12 col-md-12 col-sm-12">
                <div class="position-absolute top-50 start-50 translate-middle  p-md-4">
                <p class="text-wrap fs-5 d-md-none d-sm-block w-100 fw-bold lh-sm ">
                 Houve um erro ao Carregar os videos: <br>
-                <span class="text-danger">${e}</span>
+                <span class="text-danger">${e}</span><br>
+                reloading in...${timerInSeconds}
                    </p>
 
                     <p class=" text-wrap fs-3 d-none d-md-block d-xl-none w-100 fw-bold lh-sm ">
                 Houve um erro ao Carregar os videos: <br>
-                <span class="text-danger">${e}</span>   
+                <span class="text-danger">${e}</span> <br>
+                   reloading in...${timerInSeconds}  
                 </p>
                 
                     <p class=" text-wrap fs-1 d-none d-xl-block d-md-none w-100 fw-bold  lh-sm ">
                 Houve um erro ao Carregar os videos: <br>
-                <span class="text-danger">${e}</span>   
+                <span class="text-danger">${e}</span> 
+                <br> 
+                   reloading in...${timerInSeconds}  
                 </p>
                      <div class="spinner-border text-danger mt-5" Style="font-size:4rem; width:5rem; height:5rem" role="status">
                         <span class="visually-hidden">Loading...</span>
@@ -44,11 +64,22 @@
             </div>
                `;
             containerVideos.classList.add('justify-content-center')
+
+  if (timerInSeconds === 0) {
+    window.location.reload();
+  }
+}, 1000);
+           
            
             
             }
     }
-    buscarEMostrarVideos();
+buscarEMostrarVideos();
+
+
+   
+  
+
 
 
 
