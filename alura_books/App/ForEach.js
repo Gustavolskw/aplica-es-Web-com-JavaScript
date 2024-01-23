@@ -1,14 +1,17 @@
 function exibirLivrosNaTela(listaDeLivros) {
-    listaDeLivros.forEach(livro => {
+ 
+  listaDeLivros.forEach(livro => {
+    let disponibilidade = livro.quantidade > 0 ? "livro__imagens" : "livro__imagens indisponivel"
         let preco = livro.preco;
        let Real = Intl.NumberFormat('pt-BR', {
     style: 'currency',
     currency: 'BRL',
-});
-
-        sectionLivros.innerHTML += `
+       });
+     
+      
+      sectionLivros.innerHTML += `
         <div class="livro">
-      <img class="livro__imagens" src="${livro.imagem}" alt="Capa do livro Cangaceiro JavaScript" />
+      <img class="${disponibilidade}" src="${livro.imagem}" alt="Capa do livro Cangaceiro JavaScript" />
       <h2 class="livro__titulo">
        ${livro.titulo}
       </h2>
@@ -18,5 +21,15 @@ function exibirLivrosNaTela(listaDeLivros) {
         <span class="tag">${livro.categoria}</span>
       </div>
     </div>`
+    
     });
 }
+/*
+function verificaDisponibilidade(livro) {
+  if (livro.quantidade >= 1) {
+    return "livro__imagens"
+  } else {
+    return "livro__imagens indisponivel"
+  }
+}
+*/

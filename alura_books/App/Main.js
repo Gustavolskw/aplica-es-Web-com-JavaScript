@@ -1,6 +1,6 @@
 let livros = [];
 const endpoiuntAPI = "https://guilhermeonrails.github.io/casadocodigo/livros.json"
-const botaoFiltro = document.querySelectorAll(".btn")
+
 
 
 
