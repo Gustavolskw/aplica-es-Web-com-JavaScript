@@ -1,12 +1,16 @@
-function exibirLivrosNaTela(listaDeLivros) {
- 
-  listaDeLivros.forEach(livro => {
-    let disponibilidade = livro.quantidade > 0 ? "livro__imagens" : "livro__imagens indisponivel"
-        let preco = livro.preco;
-       let Real = Intl.NumberFormat('pt-BR', {
+
+
+ let Real = Intl.NumberFormat('pt-BR', {
     style: 'currency',
     currency: 'BRL',
-       });
+ });
+       
+function exibirLivrosNaTela(listaDeLivros) {
+ valotTotalDelivrosDispon.innerHTML=""
+  listaDeLivros.forEach(livro => {
+    let disponibilidade = livro.quantidade > 0 ? "livro__imagens" : "livro__imagens indisponivel"
+    let preco = livro.preco; 
+      
      
       
       sectionLivros.innerHTML += `
@@ -22,6 +26,7 @@ function exibirLivrosNaTela(listaDeLivros) {
       </div>
     </div>`
     
+   
     });
 }
 /*
