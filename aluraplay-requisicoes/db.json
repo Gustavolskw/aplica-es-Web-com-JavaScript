@@ -1,0 +1,137 @@
+{
+  "videos": [
+    {
+      "id": "1",
+      "titulo": "Conhecendo a linguagem Go | Hipsters.Talks",
+      "descricao": "3 mil visualizações",
+      "url": "https://www.youtube.com/embed/y8FeZMv37WU",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": "2",
+      "titulo": "Desmistificando mobile - Linguagens e Frameworks",
+      "descricao": "1,5 mil visualizações",
+      "url": "https://www.youtube.com/embed/fmu1LQvZhms",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": "3",
+      "titulo": "Orientação a objetos com Roberta Arcoverde | #Hipster...",
+      "descricao": "30 mil visualizações",
+      "url": "https://www.youtube.com/embed/jpuJ1qrluoU",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": "4",
+      "titulo": "Linguagens e ferramentas usadas em Ciência de Dados...",
+      "descricao": "2,5 mil visualizações",
+      "url": "https://www.youtube.com/embed/h83e1aAM5xQ",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": "5",
+      "titulo": "Reencontrando a paixão por programar: Beatriz Ramerindo",
+      "descricao": "1,2 mil visualizações",
+      "url": "https://www.youtube.com/embed/CnB3eLTrkn4",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": "6",
+      "titulo": "Híbridos: Flutter e React Native | Desmistificando..",
+      "descricao": "1,6 mil visualizações",
+      "url": "https://www.youtube.com/embed/vf9P_PycgRw",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": "7",
+      "titulo": "Data Science na prática- com Jéssika Ribeiro do Grupo...",
+      "descricao": "3,2 mil visualizações",
+      "url": "https://www.youtube.com/embed/Nts3P35mHzE",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": "8",
+      "titulo": "baNaNa | Memes do JavaScript #2",
+      "descricao": "1,2 mil visualizações",
+      "url": "https://www.youtube.com/embed/HBVCsBtsmzA",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "titulo": "[Casa do Código] Live de lançamento: Navegando no Universo da Programação",
+      "descricao": "1 mil visualizações",
+      "url": "https://www.youtube.com/embed/z43rcfjXOxU",
+      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": "9"
+    },
+    {
+      "titulo": "Educação coorporativa",
+      "descricao": "9 mil visualizações",
+      "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
+      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": "10"
+    },
+    {
+      "titulo": "Ilha Particular de $1 vs de $250,000,000!",
+      "descricao": "63.728.876 visualizações",
+      "url": "https://www.youtube.com/embed/krsBRQbOPQ4",
+      "imagem": "https://yt3.googleusercontent.com/fxGKYucJAVme-Yz4fsdCroCFCrANWqw0ql4GYuvx8Uq4l_euNJHgE-w9MTkLQA805vWCi-kE0g=s176-c-k-c0x00ffffff-no-rj",
+      "id": "10"
+    },
+    {
+      "id": "dcb9",
+      "titulo": "Coldplay Top Songs 2023 Playlist | Coldplay Greatest Hits Album | Yellow, Hymn For The Weekend",
+      "descricao": " 9 mil visualizações",
+      "url": "https://www.youtube.com/embed/CliS6WzmR9U",
+      "imagem": "https://yt3.ggpht.com/sayqJ2dubO9TAILft6thcgBvBleAYukp8RD8mzHQUnJgJ7ENrsTkMRh5clkFmglQHrp-0gDpzw=s48-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "7703",
+      "titulo": "O Experimento MAIS BIZARRO da FÍSICA",
+      "descricao": " 9 mil visualizações",
+      "url": "https://www.youtube.com/embed/1B6n8EQvSZM",
+      "imagem": "https://yt3.ggpht.com/ytc/AIf8zZS0CT87IzCf0xpSoK4Nz1YsB7UfYDIZH33r4FN_wQ=s48-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "56ae",
+      "titulo": "PROVEI A COMIDA DO EXÉRCITO PATRIOTA AMERICANO (EUA)!!",
+      "descricao": " 0 mil visualizações",
+      "url": "https://www.youtube.com/embed/pFmqyuB5-Do",
+      "imagem": "https://yt3.ggpht.com/ytc/AIf8zZToQGBKd5dJp2NZX5Lwi11pcAP1HLy0RHTEBoov=s48-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "30e6",
+      "titulo": "PROVEI A COMIDA DO EXÉRCITO PATRIOTA AMERICANO (EUA)!!",
+      "descricao": " 0 mil visualizações",
+      "url": "https://www.youtube.com/embed/pFmqyuB5-Do",
+      "imagem": "https://yt3.ggpht.com/ytc/AIf8zZToQGBKd5dJp2NZX5Lwi11pcAP1HLy0RHTEBoov=s48-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "1d7f",
+      "titulo": "Coldplay Top Songs 2023 Playlist | Coldplay Greatest Hits Album | Yellow, Hymn For The Weekend",
+      "descricao": " 6 mil visualizações",
+      "url": "https://www.youtube.com/embed/CliS6WzmR9U",
+      "imagem": "https://yt3.ggpht.com/sayqJ2dubO9TAILft6thcgBvBleAYukp8RD8mzHQUnJgJ7ENrsTkMRh5clkFmglQHrp-0gDpzw=s48-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "7082",
+      "titulo": "PROVEI A COMIDA DO EXÉRCITO PATRIOTA AMERICANO (EUA)!!",
+      "descricao": " 7 mil visualizações",
+      "url": "https://www.youtube.com/embed/pFmqyuB5-Do",
+      "imagem": "https://yt3.ggpht.com/ytc/AIf8zZToQGBKd5dJp2NZX5Lwi11pcAP1HLy0RHTEBoov=s48-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "9e00",
+      "titulo": "Coldplay Top Songs 2023 Playlist | Coldplay Greatest Hits Album | Yellow, Hymn For The Weekend",
+      "descricao": " 0 mil visualizações",
+      "url": "https://www.youtube.com/embed/CliS6WzmR9U",
+      "imagem": "https://yt3.ggpht.com/sayqJ2dubO9TAILft6thcgBvBleAYukp8RD8mzHQUnJgJ7ENrsTkMRh5clkFmglQHrp-0gDpzw=s48-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": "c1db",
+      "titulo": "Coldplay Top Songs 2023 Playlist | Coldplay Greatest Hits Album | Yellow, Hymn For The Weekend",
+      "descricao": " 7 mil visualizações",
+      "url": "https://www.youtube.com/embed/CliS6WzmR9U",
+      "imagem": "https://yt3.ggpht.com/sayqJ2dubO9TAILft6thcgBvBleAYukp8RD8mzHQUnJgJ7ENrsTkMRh5clkFmglQHrp-0gDpzw=s48-c-k-c0x00ffffff-no-rj"
+    }
+  ]
+}
