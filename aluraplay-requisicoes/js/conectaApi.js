@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:8080/videos";
+const apiUrl = "http://3.20.222.59:8080/videos";
 async function listaVideos() {
 
     const conn = await fetch(apiUrl);

@@ -1,12 +1,8 @@
 export default function isCpf(campo) {
     const cpf = campo.value.replace(/\.|-/g, "")
     if (validaNumRept(cpf) || validaPrimeiroDigito(cpf) || validasegundoDigito(cpf)) {
-
-        console.log("Cpf inexistente");
-    } else {
-        console.log("CPF confirmado ");
+        campo.setCustomValidity("CPF não Valido")
     }
-
 }
 
 function validaNumRept(cpf) {
